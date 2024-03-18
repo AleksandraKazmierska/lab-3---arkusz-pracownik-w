@@ -39,7 +39,6 @@ namespace lab_3___arkusz_pracowników
         private void button4_Click(object sender, EventArgs e)
         {
             form1.Dodajdogrind(indeks, imie, nazwisko, wiek, stanowisko);
-            indeks = indeks + 1;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
